@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors = { 'You Yue' => 'youyueyyyy@icloud.com' }
   s.ios.deployment_target = '9.0'
   s.source       = { :git => 'https://github.com/YouYue123/CarouselViewController.git', :tag => s.version.to_s }
-  s.source_files  = 'CarouselViewController/Carousel/Carousel/'
+  s.source_files  = 'Carousel/Carousel/*'
   s.requires_arc = true
 end

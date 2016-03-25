@@ -24,6 +24,7 @@ public class CarouselViewController: UIPageViewController {
        for var i in 1...amount{
         
          guard let _ = UIImage(named: "CarouselImage\(i)") else{
+            i = i + 1 - 1
             fatalError("Please set correct image name")
          }
         

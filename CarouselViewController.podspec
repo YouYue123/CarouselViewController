@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'CarouselSwift'
+  s.name         = 'CarouselViewController'
   s.version      = '0.0.1'
   s.summary      = 'Easy Pageviewcontroller with Carousel Effect.'
   s.homepage     = 'https://github.com/YouYue123/CarouselViewController'

@@ -10,13 +10,13 @@
 		CC0E499D1CA544F600701D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E499C1CA544F600701D7F /* AppDelegate.swift */; };
 		CC0E499F1CA544F600701D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E499E1CA544F600701D7F /* ViewController.swift */; };
 		CC0E49A21CA544F600701D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0E49A01CA544F600701D7F /* Main.storyboard */; };
-		CC0E49A41CA544F600701D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0E49A31CA544F600701D7F /* Assets.xcassets */; };
 		CC0E49A71CA544F600701D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0E49A51CA544F600701D7F /* LaunchScreen.storyboard */; };
 		CC0E49B21CA544F600701D7F /* CarouselExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E49B11CA544F600701D7F /* CarouselExampleTests.swift */; };
 		CC0E49BD1CA544F600701D7F /* CarouselExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E49BC1CA544F600701D7F /* CarouselExampleUITests.swift */; };
 		CC0E49D11CA5465900701D7F /* Carousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0E49CF1CA5465400701D7F /* Carousel.framework */; };
 		CC0E49D21CA5465900701D7F /* Carousel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC0E49CF1CA5465400701D7F /* Carousel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CC0E49D51CA546E300701D7F /* Carousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0E49D41CA546E300701D7F /* Carousel.framework */; };
+		CCBA85391CA57DDC004291AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBA85381CA57DDC004291AB /* Assets.xcassets */; };
+		CCBA853D1CA57F58004291AB /* Carousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBA853C1CA57F58004291AB /* Carousel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		CC0E499C1CA544F600701D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC0E499E1CA544F600701D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC0E49A11CA544F600701D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC0E49A31CA544F600701D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC0E49A61CA544F600701D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC0E49A81CA544F600701D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0E49AD1CA544F600701D7F /* CarouselExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +64,8 @@
 		CC0E49BC1CA544F600701D7F /* CarouselExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselExampleUITests.swift; sourceTree = "<group>"; };
 		CC0E49BE1CA544F600701D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0E49CF1CA5465400701D7F /* Carousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carousel.framework; path = /Users/youyue/Documents/CarouselViewController/CarouselExample/CarouselExample/Carousel.framework; sourceTree = "<absolute>"; };
-		CC0E49D41CA546E300701D7F /* Carousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carousel.framework; sourceTree = "<group>"; };
+		CCBA85381CA57DDC004291AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCBA853C1CA57F58004291AB /* Carousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Carousel.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0E49D51CA546E300701D7F /* Carousel.framework in Frameworks */,
+				CCBA853D1CA57F58004291AB /* Carousel.framework in Frameworks */,
 				CC0E49D11CA5465900701D7F /* Carousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,11 +118,11 @@
 		CC0E499B1CA544F600701D7F /* CarouselExample */ = {
 			isa = PBXGroup;
 			children = (
-				CC0E49D41CA546E300701D7F /* Carousel.framework */,
+				CCBA853C1CA57F58004291AB /* Carousel.framework */,
+				CCBA85381CA57DDC004291AB /* Assets.xcassets */,
 				CC0E499C1CA544F600701D7F /* AppDelegate.swift */,
 				CC0E499E1CA544F600701D7F /* ViewController.swift */,
 				CC0E49A01CA544F600701D7F /* Main.storyboard */,
-				CC0E49A31CA544F600701D7F /* Assets.xcassets */,
 				CC0E49A51CA544F600701D7F /* LaunchScreen.storyboard */,
 				CC0E49A81CA544F600701D7F /* Info.plist */,
 			);
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0E49A71CA544F600701D7F /* LaunchScreen.storyboard in Resources */,
-				CC0E49A41CA544F600701D7F /* Assets.xcassets in Resources */,
+				CCBA85391CA57DDC004291AB /* Assets.xcassets in Resources */,
 				CC0E49A21CA544F600701D7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +518,7 @@
 				CC0E49C31CA544F600701D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC0E49C41CA544F600701D7F /* Build configuration list for PBXNativeTarget "CarouselExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				CC0E49C61CA544F600701D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC0E49C71CA544F600701D7F /* Build configuration list for PBXNativeTarget "CarouselExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				CC0E49C91CA544F600701D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

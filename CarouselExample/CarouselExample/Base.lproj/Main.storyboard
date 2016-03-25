@@ -18,15 +18,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUa-kU-wtb">
-                                <rect key="frame" x="0.0" y="20" width="414" height="231"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="338"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginBackgroud" translatesAutoresizingMaskIntoConstraints="NO" id="q8a-Qh-0Nw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dots1" translatesAutoresizingMaskIntoConstraints="NO" id="Vh5-OK-gdk">
+                                <rect key="frame" x="179" y="346" width="56" height="15"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQc-aV-nhj">
+                                <rect key="frame" x="59" y="583" width="297" height="44"/>
+                                <state key="normal" image="Facebook"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38a-zQ-5et">
+                                <rect key="frame" x="62" y="463" width="295" height="112"/>
+                                <string key="text">Connect to your social account
+and let us recommend you the deals
+that best suits your personality :)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca6-2Q-l79">
+                                <rect key="frame" x="60" y="635" width="294" height="43"/>
+                                <state key="normal" image="Tiwtter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cly-MA-kSp">
+                                <rect key="frame" x="132" y="686" width="154" height="30"/>
+                                <state key="normal" title="Sign in with your email">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginGradient" translatesAutoresizingMaskIntoConstraints="NO" id="lmP-dg-Itc">
+                                <rect key="frame" x="0.0" y="337" width="414" height="399"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="carouselPlaceHolder" destination="NUa-kU-wtb" id="2n8-uz-Vy0"/>
+                        <outlet property="indicator" destination="Vh5-OK-gdk" id="uoz-0S-B7l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -34,4 +67,11 @@
             <point key="canvasLocation" x="305" y="371"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Dots1" width="135" height="36"/>
+        <image name="Facebook" width="876" height="135"/>
+        <image name="LoginBackgroud" width="375" height="667"/>
+        <image name="LoginGradient" width="1125" height="1104"/>
+        <image name="Tiwtter" width="876" height="135"/>
+    </resources>
 </document>

@@ -1,6 +1,5 @@
 //
 //  CarousellViewController.swift
-//  BluemixV2
 //
 //  Created by youyue on 16/3/16.
 //  Copyright © 2016 youyue. All rights reserved.
@@ -10,7 +9,7 @@ import UIKit
 
 public class CarouselViewController: UIPageViewController {
     
-    weak var carouselViewControllerDelegate: CarouselViewControllerDelegate?
+    public var carouselViewControllerDelegate: CarouselViewControllerDelegate?
     
     private var imageAmount : Int?
     private var orderedViewControllers = [UIViewController]()
@@ -39,7 +38,7 @@ public class CarouselViewController: UIPageViewController {
     
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required  public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -152,7 +151,7 @@ extension CarouselViewController : UIPageViewControllerDelegate{
     
 }
 
-protocol CarouselViewControllerDelegate: class {
+public protocol CarouselViewControllerDelegate {
     
     /**
        Called when the current index is updated.

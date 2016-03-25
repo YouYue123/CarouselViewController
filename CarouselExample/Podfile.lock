@@ -1,0 +1,10 @@
+PODS:
+  - CarouselViewController (1.0.2)
+
+DEPENDENCIES:
+  - CarouselViewController (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  CarouselViewController: f40bdc03f69d079b215b7683db54d4c70087368d
+
+COCOAPODS: 0.39.0

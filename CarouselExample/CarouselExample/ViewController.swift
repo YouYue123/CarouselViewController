@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import Carousel
+import CarouselViewController
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var indicator: UIImageView!

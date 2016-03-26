@@ -11,7 +11,7 @@ An ios carousel viewcontroller
 
 or use [CocoaPods](https://cocoapods.org) with Podfile:
 ``` ruby
-pod ''
+pod 'CarouselViewController', '~> 1.0.2'
 ``` 
 ## Usage
 1) Create CarouselViewController by setting its transition style, navigation orientation and other options

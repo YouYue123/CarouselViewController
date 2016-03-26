@@ -1,6 +1,6 @@
 # CarouselViewController
 
-An ios carousel viewcontroller
+An ios swift carousel viewcontroller
 
 ## Requirements
 

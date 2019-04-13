@@ -1,4 +1,4 @@
-# CarouselViewController
+# CarouselViewController(Not maintained)
 
 An ios swift carousel viewcontroller
 
